@@ -1,46 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
-
-body{
-  background: rgb(47, 22, 80);
-  color: rgb(238, 240, 215);
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 300;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(25, 26, 28);
 }
 
-.wrapper{
-  width: 1280px;
-  margin: 50px auto;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-header .logo{
-  font-weight: 600;
-  font-size: 20px;
+.App {
+  max-width: 1180px;;
+  margin: 0 auto;
+  padding: 0 40px;
+  color: white;
 }
 
-header ul.nav{
-  float: right;
-  list-style: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-header ul.nav li{
-  display: inline;
-  margin-left: 25px;
-  cursor: pointer;
-  transition: opacity 500ms ease;
-}
-
-header ul.nav li:hover{
-  opacity: 0.5;
-}
-
-header .presentation{
-  margin: 50px 0;
-  background: rgb(30, 157, 196);
-  width: 100%;
-  height: 500px;
-}
-
-footer {
-  text-align: center;
-  margin-top: 100px;
+.secondary-text {
+  color: rgb(80, 82, 84);
 }
